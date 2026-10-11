@@ -1,0 +1,4 @@
+(ENTER
+    (PRINT "Hello, World!")
+    (LOOP 1)
+EXIT)

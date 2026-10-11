@@ -1,0 +1,12 @@
+(ENTER
+    (GLOBAL n 5)
+    (GLOBAL result 1)
+    (ENTER
+        (IF (> (GET n) 1)
+            (SET result (* (GET result) (GET n)))
+            (SET n (- (GET n) 1))
+        )
+        (LOOP 4)
+    EXIT)
+    (PRINT (GET result))
+EXIT)
